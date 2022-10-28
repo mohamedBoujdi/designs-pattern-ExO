@@ -1,5 +1,5 @@
 package org.example.strategy;
 
 public interface FilterStrategy {
-    public void filter();
+    public int[] filter(int[] data);
 }

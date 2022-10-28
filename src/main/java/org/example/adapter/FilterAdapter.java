@@ -10,7 +10,7 @@ public class FilterAdapter implements FilterStrategy {
     }
 
     @Override
-    public void filter() {
-        filter.applyFilter();
+    public int[] filter(int[] data) {
+        return filter.applyFilter(data);
     }
 }
